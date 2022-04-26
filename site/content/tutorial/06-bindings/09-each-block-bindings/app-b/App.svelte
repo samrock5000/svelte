@@ -26,6 +26,7 @@
 		>
 
 		<input
+			readonly={todo.text}		 
 			placeholder="What needs to be done?"
 			bind:value={todo.text}
 		>
